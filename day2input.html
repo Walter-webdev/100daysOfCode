@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/da36c3f581.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="day2.css">
+    <title>Login form</title>
+</head>
+<body>
+    <div class="center-t"><a class="login-click" href="#" id="link" onClick="clicker();">Click Me</a></div>
+    <!-- Begin Page Content -->
+    <div id="container">
+        <form action="login_process.php" method="post">
+            <label class="lols" for="loginmsg"></label>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <div id="lower">
+                <input type="checkbox"><label class="check" for="checkbox">Keep me logged in</label>
+                <input type="submit" value="Login">
+            </div><!--/ lower-->
+            <div class="contacts">
+                <h2>Or login with</h2>
+                <a class="instagram" href="#">
+                    <i class="fab fa-instagram" style="color:#fff" ></i>
+                    instagram
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook" style="color:#fff" ></i>
+                    facebook
+                </a>
+            </div>
+            <div class="extra">
+                <p>Don't have an account? 
+                    <a href="#">
+                        Sign Up Now
+                    </a>
+                </p>
+            </div>
+        </form>
+    </div><!--/ container-->
+    <!-- End Page Content -->
+
+
+    <script>
+        function clicker () {
+            var login = document.getElementById("container");
+            login.style.display="block";
+        }
+    </script>
+    
+</body>
+</html>
