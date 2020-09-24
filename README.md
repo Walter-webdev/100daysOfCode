@@ -3,3 +3,6 @@
 # The javaScript shows and hides the box.
 # My code editor VsCode.
 
+# Day3 Responsive nav bar
+# 100daysofcode
+# Made with HTML, CSS and Bootstrap

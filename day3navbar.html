@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/da36c3f581.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" type="text/css" media="all">
+    <link rel="stylesheet" href="day3.css">
+    <title>Responsive Nav bar</title>
+</head>
+<body>
+    <div class="dropdown">
+        <h2>Company</h2>
+        <button class="dropbtn">&#9776;</button>
+        <div class="code">
+        <ul class="nav-content">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#introduction">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="dropdown-toggle nav-link" id="navbardrop" data-toggle="dropdown" href="#portfolio">Projects</a>
+                <div class="dropdown-content">
+                    <a href="#">Project 1</a>
+                    <a href="#">Project 2</a>
+                    <a href="#">Project 3</a>
+                    <a href="#">Project 4</a>
+                    <a href="#">Project 5</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="dropdown-toggle nav-link" id="navbardrop" data-toggle="dropdown" href="#">Services</a>
+                <div class="dropdown-content">
+                    <a href="#">Service 1</a>
+                    <a href="#">Service 2</a>
+                    <a href="#">Service 3</a>
+                    <a href="#">Service 4</a>
+                    <a href="#">Service 5</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#certification">Others</a>
+            </li>
+            <li class="nav-item">
+                <div class="social-part">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-spin" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="body">
+        <h1>Responsive Nav-bar</h1>
+        <p>Made with HTML, CSS and Bootstrap.</p>
+        <i class="fa fa-cab" style="font-size:300px; color: #851e3e;"></i>
+    </div>
+</body>
+</html>
